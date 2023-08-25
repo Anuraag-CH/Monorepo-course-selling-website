@@ -2,9 +2,10 @@
 
 export function Button(): JSX.Element {
   return (
-    // eslint-disable-next-line no-alert
-    <button onClick={(): void => alert("booped")} type="button">
-      Boop
-    </button>
+    <div>
+      <button onClick={(): void => alert("clicked")} type="button">
+        Hi
+      </button>
+    </div>
   );
 }
